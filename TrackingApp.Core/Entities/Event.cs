@@ -15,7 +15,7 @@ namespace TrackingApp.Core.Entities
         public int timeTo { get; set; }
         public bool isRepeated { get; set; }
         public string repeatedEvery { get; set; }
-        public int startFrom { get; set; }
-        public int endsOn { get; set; }
+        public long startFrom { get; set; }
+        public long endsOn { get; set; }
     }
 }

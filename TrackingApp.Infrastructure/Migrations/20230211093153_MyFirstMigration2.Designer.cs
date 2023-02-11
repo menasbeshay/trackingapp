@@ -3,6 +3,7 @@ using System;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Metadata;
+using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 using TrackingApp.Infrastructure.Data;
 
@@ -11,9 +12,10 @@ using TrackingApp.Infrastructure.Data;
 namespace TrackingApp.Infrastructure.Migrations
 {
     [DbContext(typeof(TAContext))]
-    partial class TAContextModelSnapshot : ModelSnapshot
+    [Migration("20230211093153_MyFirstMigration2")]
+    partial class MyFirstMigration2
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder
