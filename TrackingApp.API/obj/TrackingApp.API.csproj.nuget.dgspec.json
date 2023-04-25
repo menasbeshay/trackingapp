@@ -1,0 +1,283 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\Tina\\Source\\Repos\\trackingapp\\TrackingApp.API\\TrackingApp.API.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\Tina\\Source\\Repos\\trackingapp\\TrackingApp.API\\TrackingApp.API.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Tina\\Source\\Repos\\trackingapp\\TrackingApp.API\\TrackingApp.API.csproj",
+        "projectName": "TrackingApp.API",
+        "projectPath": "C:\\Users\\Tina\\Source\\Repos\\trackingapp\\TrackingApp.API\\TrackingApp.API.csproj",
+        "packagesPath": "C:\\Users\\Tina\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Tina\\Source\\Repos\\trackingapp\\TrackingApp.API\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Tina\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "C:\\Users\\Tina\\Source\\Repos\\trackingapp\\TrackingApp.Core\\TrackingApp.Core.csproj": {
+                "projectPath": "C:\\Users\\Tina\\Source\\Repos\\trackingapp\\TrackingApp.Core\\TrackingApp.Core.csproj"
+              },
+              "C:\\Users\\Tina\\Source\\Repos\\trackingapp\\TrackingApp.Infrastructure\\TrackingApp.Infrastructure.csproj": {
+                "projectPath": "C:\\Users\\Tina\\Source\\Repos\\trackingapp\\TrackingApp.Infrastructure\\TrackingApp.Infrastructure.csproj"
+              },
+              "C:\\Users\\Tina\\Source\\Repos\\trackingapp\\TrackingApp.Services\\TrackingApp.Services.csproj": {
+                "projectPath": "C:\\Users\\Tina\\Source\\Repos\\trackingapp\\TrackingApp.Services\\TrackingApp.Services.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Microsoft.AspNetCore.Authentication.JwtBearer": {
+              "target": "Package",
+              "version": "[6.0.3, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[6.0.3, )"
+            },
+            "Microsoft.VisualStudio.Web.CodeGeneration.Design": {
+              "target": "Package",
+              "version": "[6.0.2, )"
+            },
+            "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[6.2.3, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.201\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\Tina\\Source\\Repos\\trackingapp\\TrackingApp.Core\\TrackingApp.Core.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Tina\\Source\\Repos\\trackingapp\\TrackingApp.Core\\TrackingApp.Core.csproj",
+        "projectName": "TrackingApp.Core",
+        "projectPath": "C:\\Users\\Tina\\Source\\Repos\\trackingapp\\TrackingApp.Core\\TrackingApp.Core.csproj",
+        "packagesPath": "C:\\Users\\Tina\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Tina\\Source\\Repos\\trackingapp\\TrackingApp.Core\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Tina\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Microsoft.AspNetCore.Identity.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[6.0.3, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.201\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\Tina\\Source\\Repos\\trackingapp\\TrackingApp.Infrastructure\\TrackingApp.Infrastructure.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Tina\\Source\\Repos\\trackingapp\\TrackingApp.Infrastructure\\TrackingApp.Infrastructure.csproj",
+        "projectName": "TrackingApp.Infrastructure",
+        "projectPath": "C:\\Users\\Tina\\Source\\Repos\\trackingapp\\TrackingApp.Infrastructure\\TrackingApp.Infrastructure.csproj",
+        "packagesPath": "C:\\Users\\Tina\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Tina\\Source\\Repos\\trackingapp\\TrackingApp.Infrastructure\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Tina\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "C:\\Users\\Tina\\Source\\Repos\\trackingapp\\TrackingApp.Core\\TrackingApp.Core.csproj": {
+                "projectPath": "C:\\Users\\Tina\\Source\\Repos\\trackingapp\\TrackingApp.Core\\TrackingApp.Core.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[6.0.3, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[6.0.3, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.201\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\Tina\\Source\\Repos\\trackingapp\\TrackingApp.Services\\TrackingApp.Services.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Tina\\Source\\Repos\\trackingapp\\TrackingApp.Services\\TrackingApp.Services.csproj",
+        "projectName": "TrackingApp.Services",
+        "projectPath": "C:\\Users\\Tina\\Source\\Repos\\trackingapp\\TrackingApp.Services\\TrackingApp.Services.csproj",
+        "packagesPath": "C:\\Users\\Tina\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Tina\\Source\\Repos\\trackingapp\\TrackingApp.Services\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Tina\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.201\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
