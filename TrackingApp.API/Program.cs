@@ -17,6 +17,8 @@ builder.Services.AddIdentity<ApplicationUser, ApplicationRole>()
     .AddEntityFrameworkStores<TAContext>()
     .AddDefaultTokenProviders();
 
+var MyAllowSpecificOrigins = "_myAllowSpecificOrigins";
+
 // Adding Authentication
 builder.Services.AddAuthentication(options =>
 {
@@ -40,6 +42,15 @@ builder.Services.AddAuthentication(options =>
     };
 });
 
+builder.Services.AddCors(options =>
+{
+    options.AddPolicy(name: MyAllowSpecificOrigins,
+                      policy =>
+                      {
+                          policy.AllowAnyOrigin().AllowAnyMethod().AllowAnyHeader();
+                      });
+});
+
 builder.Services.AddControllers();
 // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
 builder.Services.AddEndpointsApiExplorer();
@@ -57,7 +68,7 @@ if (app.Environment.IsDevelopment())
 app.UseHttpsRedirection();
 
 app.UseRouting();
-
+app.UseCors(MyAllowSpecificOrigins);
 app.UseAuthorization();
 
 app.UseEndpoints(endpoints =>
