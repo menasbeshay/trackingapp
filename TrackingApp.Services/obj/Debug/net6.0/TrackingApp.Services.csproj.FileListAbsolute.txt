@@ -1,0 +1,12 @@
+C:\Users\Tina\Source\Repos\trackingapp\TrackingApp.Services\bin\Debug\net6.0\TrackingApp.Services.deps.json
+C:\Users\Tina\Source\Repos\trackingapp\TrackingApp.Services\bin\Debug\net6.0\TrackingApp.Services.dll
+C:\Users\Tina\Source\Repos\trackingapp\TrackingApp.Services\bin\Debug\net6.0\TrackingApp.Services.pdb
+C:\Users\Tina\Source\Repos\trackingapp\TrackingApp.Services\obj\Debug\net6.0\TrackingApp.Services.csproj.AssemblyReference.cache
+C:\Users\Tina\Source\Repos\trackingapp\TrackingApp.Services\obj\Debug\net6.0\TrackingApp.Services.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Tina\Source\Repos\trackingapp\TrackingApp.Services\obj\Debug\net6.0\TrackingApp.Services.AssemblyInfoInputs.cache
+C:\Users\Tina\Source\Repos\trackingapp\TrackingApp.Services\obj\Debug\net6.0\TrackingApp.Services.AssemblyInfo.cs
+C:\Users\Tina\Source\Repos\trackingapp\TrackingApp.Services\obj\Debug\net6.0\TrackingApp.Services.csproj.CoreCompileInputs.cache
+C:\Users\Tina\Source\Repos\trackingapp\TrackingApp.Services\obj\Debug\net6.0\TrackingApp.Services.dll
+C:\Users\Tina\Source\Repos\trackingapp\TrackingApp.Services\obj\Debug\net6.0\refint\TrackingApp.Services.dll
+C:\Users\Tina\Source\Repos\trackingapp\TrackingApp.Services\obj\Debug\net6.0\TrackingApp.Services.pdb
+C:\Users\Tina\Source\Repos\trackingapp\TrackingApp.Services\obj\Debug\net6.0\ref\TrackingApp.Services.dll

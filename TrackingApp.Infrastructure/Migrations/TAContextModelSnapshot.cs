@@ -110,7 +110,7 @@ namespace TrackingApp.Infrastructure.Migrations
                     b.ToTable("AspNetUserTokens", (string)null);
                 });
 
-            modelBuilder.Entity("TravelAgency.Core.Entities.ApplicationRole", b =>
+            modelBuilder.Entity("TrackingApp.Core.Entities.ApplicationRole", b =>
                 {
                     b.Property<int>("Id")
                         .ValueGeneratedOnAdd()
@@ -140,7 +140,7 @@ namespace TrackingApp.Infrastructure.Migrations
                     b.ToTable("AspNetRoles", (string)null);
                 });
 
-            modelBuilder.Entity("TravelAgency.Core.Entities.ApplicationUser", b =>
+            modelBuilder.Entity("TrackingApp.Core.Entities.ApplicationUser", b =>
                 {
                     b.Property<int>("Id")
                         .ValueGeneratedOnAdd()
@@ -208,7 +208,7 @@ namespace TrackingApp.Infrastructure.Migrations
                     b.ToTable("AspNetUsers", (string)null);
                 });
 
-            modelBuilder.Entity("TravelAgency.Core.Entities.ApplicationUserRole", b =>
+            modelBuilder.Entity("TrackingApp.Core.Entities.ApplicationUserRole", b =>
                 {
                     b.Property<int>("UserId")
                         .HasColumnType("int");
@@ -223,9 +223,55 @@ namespace TrackingApp.Infrastructure.Migrations
                     b.ToTable("AspNetUserRoles", (string)null);
                 });
 
+            modelBuilder.Entity("TrackingApp.Core.Entities.Event", b =>
+                {
+                    b.Property<int>("eventId")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("eventId"), 1L, 1);
+
+                    b.Property<int?>("CreatedByNameId")
+                        .HasColumnType("int");
+
+                    b.Property<DateTime?>("CreatedDate")
+                        .HasColumnType("datetime2");
+
+                    b.Property<long>("endsOn")
+                        .HasColumnType("bigint");
+
+                    b.Property<string>("eventName")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<bool>("isRepeated")
+                        .HasColumnType("bit");
+
+                    b.Property<string>("repeatedEvery")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<int>("startFrom")
+                        .HasColumnType("int");
+
+                    b.Property<string>("status")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<int>("timeFrom")
+                        .HasColumnType("int");
+
+                    b.Property<int>("timeTo")
+                        .HasColumnType("int");
+
+                    b.HasKey("eventId");
+
+                    b.ToTable("events");
+                });
+
             modelBuilder.Entity("Microsoft.AspNetCore.Identity.IdentityRoleClaim<int>", b =>
                 {
-                    b.HasOne("TravelAgency.Core.Entities.ApplicationRole", null)
+                    b.HasOne("TrackingApp.Core.Entities.ApplicationRole", null)
                         .WithMany()
                         .HasForeignKey("RoleId")
                         .OnDelete(DeleteBehavior.Cascade)
@@ -234,7 +280,7 @@ namespace TrackingApp.Infrastructure.Migrations
 
             modelBuilder.Entity("Microsoft.AspNetCore.Identity.IdentityUserClaim<int>", b =>
                 {
-                    b.HasOne("TravelAgency.Core.Entities.ApplicationUser", null)
+                    b.HasOne("TrackingApp.Core.Entities.ApplicationUser", null)
                         .WithMany()
                         .HasForeignKey("UserId")
                         .OnDelete(DeleteBehavior.Cascade)
@@ -243,7 +289,7 @@ namespace TrackingApp.Infrastructure.Migrations
 
             modelBuilder.Entity("Microsoft.AspNetCore.Identity.IdentityUserLogin<int>", b =>
                 {
-                    b.HasOne("TravelAgency.Core.Entities.ApplicationUser", null)
+                    b.HasOne("TrackingApp.Core.Entities.ApplicationUser", null)
                         .WithMany()
                         .HasForeignKey("UserId")
                         .OnDelete(DeleteBehavior.Cascade)
@@ -252,22 +298,22 @@ namespace TrackingApp.Infrastructure.Migrations
 
             modelBuilder.Entity("Microsoft.AspNetCore.Identity.IdentityUserToken<int>", b =>
                 {
-                    b.HasOne("TravelAgency.Core.Entities.ApplicationUser", null)
+                    b.HasOne("TrackingApp.Core.Entities.ApplicationUser", null)
                         .WithMany()
                         .HasForeignKey("UserId")
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
                 });
 
-            modelBuilder.Entity("TravelAgency.Core.Entities.ApplicationUserRole", b =>
+            modelBuilder.Entity("TrackingApp.Core.Entities.ApplicationUserRole", b =>
                 {
-                    b.HasOne("TravelAgency.Core.Entities.ApplicationRole", null)
+                    b.HasOne("TrackingApp.Core.Entities.ApplicationRole", null)
                         .WithMany()
                         .HasForeignKey("RoleId")
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
 
-                    b.HasOne("TravelAgency.Core.Entities.ApplicationUser", null)
+                    b.HasOne("TrackingApp.Core.Entities.ApplicationUser", null)
                         .WithMany()
                         .HasForeignKey("UserId")
                         .OnDelete(DeleteBehavior.Cascade)
