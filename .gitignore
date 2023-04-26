@@ -1,0 +1,9 @@
+﻿.vs
+publish
+TrackingApp.API/bin
+TrackingApp.API/obj
+TrackingApp.Core/bin
+TrackingApp.Core/obj
+TrackingApp.Infrastructure/bin
+TrackingApp.Infrastructure/obj
+TrackingApp.Services/obj
