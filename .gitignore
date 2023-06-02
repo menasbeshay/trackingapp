@@ -7,3 +7,9 @@ TrackingApp.Core/obj
 TrackingApp.Infrastructure/bin
 TrackingApp.Infrastructure/obj
 TrackingApp.Services/obj
+TrackingApp.API/obj
+TrackingApp.API/Properties
+TrackingApp.Core/obj
+TrackingApp.Infrastructure/obj
+TrackingApp.Services/bin
+TrackingApp.Services/obj
