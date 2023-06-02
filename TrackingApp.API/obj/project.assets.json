@@ -10321,11 +10321,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Tina\\Source\\Repos\\trackingapp\\TrackingApp.API\\TrackingApp.API.csproj",
+      "projectUniqueName": "C:\\Users\\Tina\\trackingapp\\TrackingApp.API\\TrackingApp.API.csproj",
       "projectName": "TrackingApp.API",
-      "projectPath": "C:\\Users\\Tina\\Source\\Repos\\trackingapp\\TrackingApp.API\\TrackingApp.API.csproj",
+      "projectPath": "C:\\Users\\Tina\\trackingapp\\TrackingApp.API\\TrackingApp.API.csproj",
       "packagesPath": "C:\\Users\\Tina\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Tina\\Source\\Repos\\trackingapp\\TrackingApp.API\\obj\\",
+      "outputPath": "C:\\Users\\Tina\\trackingapp\\TrackingApp.API\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Tina\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -10342,14 +10342,14 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
-            "C:\\Users\\Tina\\Source\\Repos\\trackingapp\\TrackingApp.Core\\TrackingApp.Core.csproj": {
-              "projectPath": "C:\\Users\\Tina\\Source\\Repos\\trackingapp\\TrackingApp.Core\\TrackingApp.Core.csproj"
+            "C:\\Users\\Tina\\trackingapp\\TrackingApp.Core\\TrackingApp.Core.csproj": {
+              "projectPath": "C:\\Users\\Tina\\trackingapp\\TrackingApp.Core\\TrackingApp.Core.csproj"
             },
-            "C:\\Users\\Tina\\Source\\Repos\\trackingapp\\TrackingApp.Infrastructure\\TrackingApp.Infrastructure.csproj": {
-              "projectPath": "C:\\Users\\Tina\\Source\\Repos\\trackingapp\\TrackingApp.Infrastructure\\TrackingApp.Infrastructure.csproj"
+            "C:\\Users\\Tina\\trackingapp\\TrackingApp.Infrastructure\\TrackingApp.Infrastructure.csproj": {
+              "projectPath": "C:\\Users\\Tina\\trackingapp\\TrackingApp.Infrastructure\\TrackingApp.Infrastructure.csproj"
             },
-            "C:\\Users\\Tina\\Source\\Repos\\trackingapp\\TrackingApp.Services\\TrackingApp.Services.csproj": {
-              "projectPath": "C:\\Users\\Tina\\Source\\Repos\\trackingapp\\TrackingApp.Services\\TrackingApp.Services.csproj"
+            "C:\\Users\\Tina\\trackingapp\\TrackingApp.Services\\TrackingApp.Services.csproj": {
+              "projectPath": "C:\\Users\\Tina\\trackingapp\\TrackingApp.Services\\TrackingApp.Services.csproj"
             }
           }
         }

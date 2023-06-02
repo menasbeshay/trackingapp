@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Tina\\Source\\Repos\\trackingapp\\TrackingApp.Services\\TrackingApp.Services.csproj": {}
+    "C:\\Users\\Tina\\trackingapp\\TrackingApp.Services\\TrackingApp.Services.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Tina\\Source\\Repos\\trackingapp\\TrackingApp.Services\\TrackingApp.Services.csproj": {
+    "C:\\Users\\Tina\\trackingapp\\TrackingApp.Services\\TrackingApp.Services.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Tina\\Source\\Repos\\trackingapp\\TrackingApp.Services\\TrackingApp.Services.csproj",
+        "projectUniqueName": "C:\\Users\\Tina\\trackingapp\\TrackingApp.Services\\TrackingApp.Services.csproj",
         "projectName": "TrackingApp.Services",
-        "projectPath": "C:\\Users\\Tina\\Source\\Repos\\trackingapp\\TrackingApp.Services\\TrackingApp.Services.csproj",
+        "projectPath": "C:\\Users\\Tina\\trackingapp\\TrackingApp.Services\\TrackingApp.Services.csproj",
         "packagesPath": "C:\\Users\\Tina\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Tina\\Source\\Repos\\trackingapp\\TrackingApp.Services\\obj\\",
+        "outputPath": "C:\\Users\\Tina\\trackingapp\\TrackingApp.Services\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Tina\\AppData\\Roaming\\NuGet\\NuGet.Config",
