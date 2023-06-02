@@ -8,4 +8,4 @@ build_property.PlatformNeutralAssembly =
 build_property.EnforceExtendedAnalyzerRules = 
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = TrackingApp.Core
-build_property.ProjectDir = C:\Users\Tina\Source\Repos\trackingapp\TrackingApp.Core\
+build_property.ProjectDir = C:\Users\Tina\trackingapp\TrackingApp.Core\

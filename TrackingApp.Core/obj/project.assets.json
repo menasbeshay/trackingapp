@@ -820,11 +820,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Tina\\Source\\Repos\\trackingapp\\TrackingApp.Core\\TrackingApp.Core.csproj",
+      "projectUniqueName": "C:\\Users\\Tina\\trackingapp\\TrackingApp.Core\\TrackingApp.Core.csproj",
       "projectName": "TrackingApp.Core",
-      "projectPath": "C:\\Users\\Tina\\Source\\Repos\\trackingapp\\TrackingApp.Core\\TrackingApp.Core.csproj",
+      "projectPath": "C:\\Users\\Tina\\trackingapp\\TrackingApp.Core\\TrackingApp.Core.csproj",
       "packagesPath": "C:\\Users\\Tina\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Tina\\Source\\Repos\\trackingapp\\TrackingApp.Core\\obj\\",
+      "outputPath": "C:\\Users\\Tina\\trackingapp\\TrackingApp.Core\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Tina\\AppData\\Roaming\\NuGet\\NuGet.Config",

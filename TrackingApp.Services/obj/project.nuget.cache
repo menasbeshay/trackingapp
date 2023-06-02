@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "uceVMskAUVF4D1M5Bjnt1M1rgxyNPQRGeBJgr+b9U3RLxBhsJmPqjn6TvNzPTFV97vaHvbRcx2F4OogfbTMMLQ==",
+  "dgSpecHash": "qsg3/KrbQnrSMEYBisCvGlHmA5tEi63J7INqQbp1H3T6aiw+/kcuU9h5NfufxK0MXzX60PwpX+DNCDSmDgjIhg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Tina\\Source\\Repos\\trackingapp\\TrackingApp.Services\\TrackingApp.Services.csproj",
+  "projectFilePath": "C:\\Users\\Tina\\trackingapp\\TrackingApp.Services\\TrackingApp.Services.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }
